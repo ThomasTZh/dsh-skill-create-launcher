@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=@@PRODUCT_NAME@@
+Comment=Launch @@PRODUCT_NAME@@ (frontend and backend) in a terminal
+Exec="@@PYTHON@@" "@@PROJECT_ROOT@@/launchers/run-@@PRODUCT_SLUG@@.py"
+Path=@@PROJECT_ROOT@@
+Terminal=true
+Icon=utilities-terminal
+Categories=Development;
+StartupNotify=false
